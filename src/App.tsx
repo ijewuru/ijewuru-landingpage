@@ -8,14 +8,16 @@ import { Contact } from "./pages/Contact";
 function App() {
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Landingpage />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
+      <div className="app">
+        <Router>
+          <Routes>
+            <Route path="/" element={<Landingpage />} />
+            <Route path="/product" element={<Product />} />
+            <Route path="/faq" element={<Faq />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+      </div>
     </>
   );
 }
