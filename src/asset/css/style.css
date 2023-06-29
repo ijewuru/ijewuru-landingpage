@@ -1,0 +1,33 @@
+.home-img {
+  background-image: url(../image/homebg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 619px;
+}
+
+.auth-btn {
+  width: 236px;
+  height: 68px;
+  color: #fff;
+  border-radius: 30px;
+  background: #fa4a0c;
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+  margin-right: 34px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.auth-btn:last-child {
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.home-img2 {
+  background-image: url(../image/homeimg2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 516px;
+}
