@@ -55,7 +55,7 @@ export const Landingpage = () => {
         </h1>
         <hr className="mt-12 mx-0 bg-hr md:hidden" />
 
-        <div className="mt-[65px] text-center flex flex-col-reverse md:items-center md:flex-row md:mt-32">
+        <div className="mt-[65px] text-center md:text-left flex flex-col-reverse md:items-center md:flex-row md:mt-32">
           <img src={app2} className="mt-10 md:mt-0 md:mr-44" alt="" />
           <div>
             <h1 className="text-pc text-2xl font-mont font-bold">
@@ -70,7 +70,7 @@ export const Landingpage = () => {
           </div>
         </div>
 
-        <div className="mt-[44px] text-center flex flex-col md:flex-row md:justify-between items-center md:mt-[78px]">
+        <div className="mt-[44px] text-center md:text-left flex flex-col md:flex-row md:justify-between items-center md:mt-[78px]">
           <div className="md:mr-44">
             <h1 className="mt-14 md:mt-0 text-pc text-2xl font-mont font-bold">
               Explore varieties
@@ -87,7 +87,7 @@ export const Landingpage = () => {
 
         <div className="mt-[31px] flex flex-col-reverse md:flex-row md:justify-between items-center md:mt-[78px]">
           <img className="mt-10 md:mt-0 md:mr-44" src={app4} alt="" />
-          <div className="text-center">
+          <div className="text-center md:text-left">
             <h1 className="mt-14 md:mt-0 text-pc text-2xl font-mont font-bold">
               Checkout
             </h1>
@@ -102,7 +102,7 @@ export const Landingpage = () => {
       </section>
 
       {/* big screen */}
-      <section className="hidden home-img2 md:flex md:flex-col items-center md:pt-[145px]">
+      <section className="hidden mt-36 home-img2 md:flex md:flex-col items-center md:pt-[145px]">
         <h1 className="font-mont text-4xl md:font-bold text-white">
           Download the app now.
         </h1>
